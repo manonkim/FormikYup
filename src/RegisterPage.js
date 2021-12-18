@@ -24,7 +24,7 @@ function RegisterPage() {
 
   const handleOnSubmit = async (values, actions) => {
     await axios
-      .post("http://localhost:3000/users", {
+      .post("/url", {
         username: values.username,
         email: values.email,
         password: values.password,
@@ -35,7 +35,7 @@ function RegisterPage() {
         alert("Thanks for signing up");
 
         axios
-          .post("localhost:3000/auth", {
+          .post("/authurl", {
             email: values.email,
           })
           .then((res) => {
