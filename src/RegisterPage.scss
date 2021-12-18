@@ -1,0 +1,46 @@
+.wrap {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #454545;
+
+  .box {
+    width: 358px;
+    height: 520px;
+    padding: 36px;
+    background-color: #ffffff;
+    box-shadow: 0px 0px 5px 0px rgba(216, 216, 216, 0.74);
+
+    .title {
+      margin: 10px 0 30px 63px;
+      font-size: 17px;
+      font-weight: 600;
+    }
+
+    .textInput {
+      margin-bottom: 3px;
+      font-size: 13px;
+    }
+
+    .btn {
+      width: 100%;
+    }
+
+    .checkboxInput {
+      font-size: 13px;
+    }
+
+    .abc {
+      position: relative;
+      top: 2px;
+    }
+
+    .err {
+      position: absolute;
+      color: rgb(184, 31, 31);
+      font-size: 0.7rem;
+    }
+  }
+}
