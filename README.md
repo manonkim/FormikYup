@@ -1,6 +1,6 @@
 # React Formik
 
-**Features**
+### Usage
 
 - Easily composable set of helpers
 - Connects your React input to Formik with no boilerplate
@@ -18,7 +18,7 @@ The point is to make your forms easy to write and provide features your users wi
 
 Yup is a JavaScript schema builder for value parsing and validation. Define a schema, transform a value to match, validate the shape of an existing value, or both.
 
-## Usage
+### Usage
 
 ```js
 import * as Yup from "yup";
